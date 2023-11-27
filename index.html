@@ -1,0 +1,85 @@
+<!DOCTYPE HTML>
+<html lang="en">
+    <head>
+        <meta charset="UTF-16">
+        <meta lang="en-GB">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="style.css">
+        <style>
+            @import url(style.css);
+            TABLE {WIDTH: 100%;}
+            TABLE, THEAD, TBODY, TH, TR, TD {BORDER: 1PX SOLID #000;}
+            TABLE, THEAD, TBODY, TH, TR, TD {PADDING: 0PX; BORDER-SPACING: 0;}
+        </style>
+    </head>
+
+    <body>
+        <table>
+            <thead class="header-table">
+                <tr>
+                    <td class="header-img"><img src="images/icon.png" class="header-img"></td>
+                    <td colspan="2" class="header-title">UHSLN Online</td>
+                </tr>
+                <tr>
+                    <td colspan="3">
+                        <nav class="topnav">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">About</a></li>
+                                <li><a href="#">Blog</a></li>
+                                <li><a href="#">Sec 2</a></li>
+                                <li><a href="#">Sec 3</a></li>
+                            </ul>
+                        </nav>
+                    </td>
+                </tr>
+            </thead>
+        
+            <tr>
+                <td rowspan="3" style="width: 170px;">
+                    <div class="sidenav-container">
+                        <nav class="sidenav">
+                            <span class="sidenav-title"><p>UHSLN A-Z</p></span>
+                            <ul>
+                                <li><a href="#">A</a></li>
+                                <li><a href="#">B</a></li>
+                                <li><a href="#">C</a></li>
+                                <li><a href="#">D</a></li>
+                                <li><a href="#">E</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </td>
+                <td id="main-content" valign="top">
+                    <h1>Content 1</h1>
+                </td>
+                <td id="right-content" rowspan="2" valign="top">
+                    <div class="cbox green">
+                        <h2>Content Box 1</h2>
+                        <img src="images/icon.png">
+                        <p style="overflow-wrap: break-word;">Content Box content</p>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="cbox blue">
+                        <h2>Content Box 2</h2>
+                        <img src="images/icon.png">
+                        <p>Content Box content</p>
+                        <div class="clear"></div>
+                    </div>
+                    <div class="cbox yellow">
+                        <h2>Content Box 3</h2>
+                        <img src="images/icon.png">
+                        <p>Content Box content</p>
+                        <div class="clear"></div>
+                    </div>
+                </td>
+            </tr>
+            <tr>
+                <td>2nd Content</td>
+            </tr>
+            <tr>
+                <td colspan="2" id="footer" style="height: 50px;">© 2023 United Humanities, Science and Language Notes</td>
+            </tr>
+        </table>
+    </body>
+</html>

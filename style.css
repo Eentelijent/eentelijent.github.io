@@ -1,0 +1,49 @@
+body {margin: 0; padding: 0; background-color: #E0E0E0}
+h1 {margin: 0.20em; font-size: 32px;}
+h2 {margin: 0.17em; font-size: 28px;}
+h3 {margin: 0.15em; font-size: 26px;}
+h4 {margin: 0.12em; font-size: 24px;}
+h5 {margin: 0.10em; font-size: 22px;}
+h6 {margin: 0.07em; font-size: 20px;}
+p {font-size: 18px;}
+ 
+#wrapper {padding: 0; border-spacing: 0; top: 0; position: relative;}
+#wrapper table {border: 0px; width: 100%;}
+#wrapper table, #wrapper thead, #wrapper tbody, #wrapper th, #wrapper tr, #wrapper td {padding: 0; border-spacing: 0; }
+#main-content {margin-left: 20px; width: 1fr; }
+#right-content {margin-left: 20px; width: 25%; max-width: 100px;}
+#footer {text-align: center;}
+
+.header-container {width: 100%; position: sticky; top: 0;}
+.header-table {border: 0px; background-color: #7AA6C8; width: 100%; border-spacing: 0;}
+.header-table td, .header-table tr {vertical-align: middle;}
+.header-bar {background-color: #7AA6C8; }
+.header-img {height: 100px; width: 100px; order: 1; flex: 1; text-align: center;}
+.header-title {font: 600 3em 'Verdana', Tahoma, Arial, sans-serif; margin-left: 0px;}
+
+.topnav {background-color: #4F678B; position: sticky; padding: 5px 0;}
+.topnav ul, .topnav li {list-style-type: none; padding: 0; display: inline;}
+.topnav ul li a {padding: 0 16px; overflow: hidden; text-decoration: none; }
+.topnav ul li a:link {color: #FFFFFF; font: 400 20px 'Verdana';}
+.topnav ul li a:hover {color: #F1F1F1; background-color: #384861; padding: 5px 16px;}
+.topnav ul li a:active {color: #F1F1F1; background-color: #001E50; padding: 5px 16px;}
+
+.sidenav-container {float: left;}
+.sidenav-title {background-color: #A7A778; font: 600 1.1em 'Arial'; width: 170px; height: 25px;}
+.sidenav-title {display: inline-block; line-height: 25px; text-shadow: -2px 1px #ADADAD;}
+.sidenav-title p {margin-left: 5px; margin: 0 5px; color: white;}
+.sidenav {margin: 0; padding: 0; width: 170px; background-color: #EDEDCC; height: 800px;}
+.sidenav a {display: block; color: blue; padding: 5px 0; font: 1.1em 'Verdana'; text-decoration: none;}
+.sidenav ul {margin-top: 0.5em;}
+.sidenav a:active {color: red;}
+.sidenav a:hover:not(.active) {text-decoration: underline;}
+
+.cbox {border: 2px solid #000; margin: 5px;}
+.cbox H2 {font: 600 1.2em 'Tahoma', 'Times New Roman';}
+.cbox p {margin: 5px 3px; font: 0.9em 'Verdana', Arial, sans-serif; float: left;}
+.cbox img {float: left; width: 75px; margin: 3px;}
+.cbox.green {background-color: greenyellow;}
+.cbox.blue {background-color: lightblue;}
+.cbox.yellow {background-color: cornsilk;}
+
+.clear {clear: both;}
