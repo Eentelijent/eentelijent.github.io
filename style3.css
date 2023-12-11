@@ -1,0 +1,9 @@
+body {background-image: url(images/bg.png); margin: 0 auto; width: 80%;}
+.wrapper {margin: 0 auto; background-color: #E0E0E0; height: 1000px;}
+header {top: 0; position: sticky; width: 100%; border: 1px solid #000; height: 120px;}
+header {background-color: darkred; height: 120px; width: 100%;}
+header table {margin-top: 0; height: 117px; padding: 0; margin: 0;}
+.wrapper {/* box-shadow: -3px 3px 3px 3px #DDDDDD;*/ }
+table {border-spacing: 0;}
+table tr td {border: 1px solid #000; border-spacing: 0;}
+.header-img {height: 100px; margin-right: 10px;}

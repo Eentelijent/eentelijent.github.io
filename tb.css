@@ -1,0 +1,28 @@
+body {width: 80%; background-color: #FFFFFF; margin: 0 auto; margin-top: 20px ;}
+h0 {font-size: 2.6em; line-height: 1em;} /* custom title heading tag */
+h1 {font-size: 2.2em; margin: 0.3em 0; padding: 0.3em 0;}
+h2 {font-size: 1.7em; margin: 0.2em 0; padding: 0.2em 0;}
+h3 {font-size: 1.5em; margin: 0.15em 0; padding: 0.15em 0;}
+h4 {font-size: 1.3em; margin: 0.1em 0; padding: 0.1em 0;}
+h5 {font-size: 1.2em; margin: 0.08em 0; padding: 0.08em 0;}
+h6 {font-size: 1.15em; margin: 0.04em 0; padding: 0.04em 0; font-weight: normal; text-decoration: underline;}
+h7 {font-style: italic;}
+figcaption {font-size: normal; font-style: italic;} img {border: 1px solid #000;}
+dt {font-weight: 600;}
+table th tr td {border: 1px solid black;}
+table img, td {width: 200px;}
+ul {margin-top: 0.01em 0; padding-top: 0.01em 0;}
+a {font-family: 'Verdana', Tahoma, Arial, sans-serif; color: blue;}
+a:hover {background-color: #FFFF99;}
+a:active {background-color: #FFFF99; color: red;}
+#wrapper {width: 100%;}
+.box {border: 1px solid #000; border-radius: 5px; width: 500px; padding: 10px;} .line {height: 1px; background-color: #000000; width: 100%;}
+.fwbox {border: 1px solid #000; border-radius: 5px; width: 100%; padding: 10px;} /* Full-width box */
+.b-bdless {border: 0;} .b-grey {background-color: lightgrey;}
+.b-left {float: left;} .b-right {float: right;} .b-left img {margin-right: 15px;}
+.clear {clear: both;}
+.header-bar {width: 100%;}
+.header-bar a {font: 400 1.1em 'Times New Roman';}
+.header-bar a:hover {color: red} .header-bar a:active {color: darkred;}
+.header-bar ul {display: flex; justify-content: space-between; align-items: center; width: 90%; margin: 0;}
+.header-bar ul li {list-style-type: none;}
