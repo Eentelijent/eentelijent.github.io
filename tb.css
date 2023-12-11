@@ -27,4 +27,4 @@ a:active {background-color: #FFFF99; color: red;}
 .header-bar ul {display: flex; justify-content: space-between; align-items: center; width: 90%; margin: 0;}
 .header-bar ul li {list-style-type: none;}
 .sec-2 {width: 100%; display: block !important;}
-h2 a, .title-heading {text-decoration: none; margin-bottom: 0px; padding-bottom: 0px;font: 'Verdaba';}
+h2 a, .title-heading {text-decoration: none; margin-bottom: 0px; padding-bottom: 0px; font-family: 'Verdana';}
