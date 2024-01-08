@@ -1,5 +1,5 @@
 body {width: 80%; background-color: #DAE1EB; margin: 0 auto;}
-main {width: 80%; background-color: #E0E0E0; margin: 0 auto;}
+main {width: 100%; background-color: #E0E0E0; margin: 0 auto;}
 h0 {font-size: 2.6em; line-height: 1em;} /* custom title heading tag */
 h1 {font-size: 2.2em; margin: 0.3em 0; padding: 0.3em 0;}
 h2 {font-size: 1.7em; margin: 0.2em 0; padding: 0.2em 0;}
@@ -10,7 +10,7 @@ h6 {font-size: 1.15em; margin: 0.04em 0; padding: 0.04em 0; font-weight: normal;
 h7 {font-size: 1.07em; font-style: italic; margin: 0.02em 0; padding: 0.02em 0;}
 hchap {font: 500 1.3em 'Verdana'; color: white; line-height: 1.31em; vertical-align: center; margin-left: 5px;}
 figcaption {font-size: normal; font-style: italic;} img {border: 1px solid #000;}
-header {width: calc(107% + 8px); background-color: #E0E0E0;}
+header {width: 113%; background-color: #DAE1EB;}
 dt {font-weight: 600;}
 table th tr td {border: 1px solid black;}
 ul {margin-top: 0.01em 0; padding-top: 0.01em 0;}
@@ -21,11 +21,13 @@ a:visited {color: blue;}
 section a {font-family: 'Times New Roman', Times, serif; font-size: 1.1em;}
 ol ul li {list-style: disc;} ol ul ul li {list-style: circle;}; ol ul ul ul li {list-style: square;}
 footer {margin-bottom: 30px; padding-bottom: 30px; width: 94.8%; margin-right: 4%;}
+caption {font-size: normal; font-style: italic;}
 .title-header {height: 1.8em; background-color: #E28700; width: 88%; /*coral*/}
 #header-container {height: 115PX; background-color: #FF9900; width: 88%;}
 .b-left.h-anchor {background-color: #F1F1F1; width: 109px; height: 109px; border: 3px double #000;}
 .h-anchor p {text-align: center;} .h-anchor h1 {text-align: center; padding-top: 0; font-size: 2.5em} .subchapter {text-align: center; padding-top: 0; font-size: 0.7em;}
 .h-title {font: 500 2em 'Verdana'; color: white; line-height: 65px; margin-left: 10px;}
+.h-subtitle {font: 500 1.5em Verdana; color: white; line-height: 20px; margin-left: 20px;}
 .h-table {height: 45px; width: 100%; display: inline-block;}
 img.up {rotate: 90deg;} img.down {rotate: -90deg;} img.right {rotate: 180deg}
 img:hover {border: 2PX solid darkblue;} a:hover img {background-color: none;}
@@ -34,7 +36,7 @@ img:hover {border: 2PX solid darkblue;} a:hover img {background-color: none;}
 .fbox {border: 1px solid #000; border-radius: 5px; width: auto;} /* Fit-width box */
 .sbox {border: 1px solid #000; border-radius: 5px; width: 150px; padding: 10px; overflow: auto;}
 .mbox {border: 1px solid #000; border-radius: 5px; width: 325px; padding: 10px; overflow: auto;}
-.lbox {border: 1px solid #000; border-right: 5px; width: 700px; padding: 10px; overflow: auto;}
+.lbox {border: 1px solid #000; border-radius: 5px; width: 700px; padding: 10px; overflow: auto; margin-top: 10px;}
 .box p, .sbox b, .mbox p, .fwbox p {margin-bottom: 0px; padding-bottom: 0px;}
 .b-bdless {border: 0;} .b-grey {background-color: lightgrey;} .b-cyan {background-color: rgb(0, 182, 185);}
 .b-left {float: left;} .b-right {float: right;} .b-left img {margin-right: 15px;}
@@ -58,3 +60,4 @@ table .footer {width: 100%;}
 hr.line {width: 100%; height: 3px; background-color: #0C3468;}
 .next {width: 50px;}
 .li-head {font-weight: 600;}
+table li {padding-left: 0em; margin-left: 0em;}
